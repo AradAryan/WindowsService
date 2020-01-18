@@ -5,13 +5,12 @@ using System.Threading;
 using System.Diagnostics;
 using System.ServiceProcess;
 
-
 namespace MyFirstService
 {
     public partial class LogService : ServiceBase
     {
         System.Timers.Timer timer =
-            new System.Timers.Timer(); // name space(using System.Timers;)
+            new System.Timers.Timer();
 
         public LogService()
         {
